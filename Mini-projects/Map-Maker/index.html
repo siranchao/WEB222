@@ -1,0 +1,73 @@
+<!-- ****************************************************************************
+* WEB222 – Assignment 4
+* I declare that this assignment is my own work in accordance with college Academic Policy.
+* No part of this assignment has been copied manually or electronically from any other source
+* (including web sites) or distributed to other students.
+*
+* Name: Siran Cao    Student ID: 159235209    Date: 12/11/2021
+**************************************************************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the Map-Maker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Starting area -->
+      <section id="start-area">
+        <h1 class="title">Map Maker</h1>
+        <button class="btn" id="btn-renew">CREATE NEW MAP</button>
+        <hr />
+      </section>
+
+      <main class="hidden">
+        <!-- Select-area -->
+        <section id="select-area">
+          <h2 class="title">Select a Map Tile</h2>
+          <div id="map-tiles">
+            <div class="tile">
+              <img src="assets/mountain.png" alt="pic" />
+            </div>
+            <div class="tile">
+              <img src="assets/water.png" alt="pic" />
+            </div>
+            <div class="tile">
+              <img src="assets/player.png" alt="pic" />
+            </div>
+            <div class="tile remove">
+              <img src="assets/remove.png" alt="pic" />
+            </div>
+          </div>
+        </section>
+        <!-- Map area -->
+        <section id="map-area">
+          <h2 class="title">Your Map</h2>
+          <div id="the-map">
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

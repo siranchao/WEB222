@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="movie">
+        <h1>Movie Theatre Seating Chart</h1>
+
+        <label for="movie-listing">Select a Movie: </label>
+        <select id="movieList" name="movie-listing"></select>
+      </section>
+
+      <hr />
+
+      <main>
+        <div>
+            <h2>Legend</h2>
+            <p>Red = Occupied</p>
+            <p>Grey = Available</p>
+            <p>Yellow = Selected</p>
+          </div>
+          <!-- seating map -->
+          <section id="seating-map">
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+          </section>
+    
+          <section class="checkout">
+            <h2>Order Summary</h2>
+            <p>Each seat costs $<span id="moviePrice"></span></p>
+            <p>Number of selected seats: <span id="lbl-num-seats">-1</span></p>
+            <p>Total Cost: $<span id="lbl-total-price">-1.00</span></p>
+            <button id="btn-buy-seats">BUY SEATS</button>
+            <button id="btn-cancel-seats">CANCEL SEATS</button>
+          </section>
+        </div>
+
+        <div class="hidden">
+          <hr/>
+          <form action="" method="post">
+            <label for="name-input">Enter your name: </label>
+            <input type="text" name="name-input" placeholder="enter name" required/>
+            <label for="email-input">Enter your email: </label>
+            <input type="text" name="email-input" placeholder="enter email" required/>
+            <label for="check">I'm gay</label>
+            <input type="checkbox" name="check" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+      </main>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body > div {
+        background-color: lightblue;
+        border: 2px solid black;
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menu</h1>
+
+    <div class="btn-area">
+      <p class="product">Hamburger</p>
+      <p class="price">$<span>12.99</span></p>
+      <button>Add to Order</button>
+    </div>
+
+    <div class="btn-area">
+      <p class="product">Pizza</p>
+      <p class="price">$<span>12.5</span></p>
+      <button>Add to Order</button>
+    </div>
+
+    <div class="btn-area">
+      <p class="product">Chicken Salad</p>
+      <p class="price">$<span>2.5</span></p>
+      <button>Add to Order</button>
+    </div>
+
+    <div class="btn-area">
+      <p class="product">Chocolate Cake Tart</p>
+      <p class="price">$<span>3.2</span></p>
+      <button>Add to Order</button>
+    </div>
+
+    <div class="btn-area">
+      <p class="product">Magic Tart</p>
+      <p class="price">$<span>22.5</span></p>
+      <button>Add to Order</button>
+    </div>
+
+    <div class="order-area">
+      <h1>Your order</h1>
+      <div id="orders">Your items go here: <span id="list"></span></div>
+      <hr />
+      <div>Total to Pay: $<span id="pay"></span></div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

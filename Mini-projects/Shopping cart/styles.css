@@ -1,0 +1,50 @@
+/* layout for products table */
+.container {
+  width: 50vw;
+  height: auto;
+  margin: 50px auto;
+  background-color: darkgrey;
+  border: 3px solid black;
+  padding: 10px;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 500px;
+  border: 1px solid red;
+}
+.quantity-btns {
+  padding-top: 12px;
+  border: 1px solid blue;
+}
+.product {
+  font-family: Arial;
+}
+
+/* button styling */
+.btn {
+  display: block;
+  background-color: #5f27cd;
+  border: 1px solid #341f97;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #1dd1a1;
+  border: 1px solid #10ac84;
+  color: #000;
+}
+/* css for input box */
+input {
+  display: block;
+  margin-top: 10px;
+  width: 200px;
+  padding: 8px 10px;
+}
+
+.hidden {
+  display: none;
+}

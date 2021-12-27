@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center">Shopping Cart Checkout</h1>
+      <div class="row">
+        <p>Product</p>
+        <p>Quantity</p>
+        <p>Unit Price</p>
+        <p>Extended Price</p>
+      </div>
+      <div class="row product">
+        <p>Pants</p>
+        <div class="quantity-btns">
+          <button id="btn-minus">-</button>
+          <span>1</span>
+          <button id="btn-plus">+</button>
+        </div>
+        <p>$4.99</p>
+        <p id="extended-price">$4.99</p>
+      </div>
+      <!-- <div class="row product">
+            <p>Shirts</p>
+            <div class="quantity-btns">
+                <button>-</button>
+                <span>2</span>
+                <button>+</button>
+            </div>
+            <p>$10.00</p>
+            <p>$20.00</p>
+        </div>
+        <div class="row product">
+            <p>Hats</p>
+            <div class="quantity-btns">
+                <button>-</button>
+                <span>0</span>
+                <button>+</button>
+            </div>
+            <p>$3.50</p>
+            <p>$0.00</p>
+        </div> -->
+
+      <button class="btn" id="btn-calculate">Calculate</button>
+      <p>Subtotal: $<span id="subtotal">0</span></p>
+      <p>Tax: $<span id="tax">0</span></p>
+      <p>Total: $<span id="total">0</span></p>
+
+      <a href="www.facebook.com" id="coupon-link">I have a coupon.</a>
+
+      <div id="coupon-ui" class="hidden">
+        <input type="text" placeholder="Enter your coupon code" />
+        <button class="btn">APPLY COUPON</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

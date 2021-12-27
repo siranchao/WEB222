@@ -1,0 +1,72 @@
+<!-- ****************************************************************************
+* WEB222 – Assignment 3
+* I declare that this assignment is my own work in accordance with college Academic Policy.
+* No part of this assignment has been copied manually or electronically from any other source
+* (including web sites) or distributed to other students.
+
+* Name: Siran Cao    Student ID: 159235209    Date: 11/29/2021
+**************************************************************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section id="starting-part">
+        <h1 class="title">Word Guessing Game</h1>
+        <button class="btn-start">START NEW GAME</button>
+      </section>
+
+      <hr />
+
+      <section class="hidden" id="guessing-part">
+        <h2 class="title">What is the secret word?</h2>
+        <div id="word-display">
+          <!-- empty spaces need insertion -->
+        </div>
+        <p id="chances">Chances remaining: <span></span></p>
+      </section>
+
+      <section class="hidden" id="letter-part">
+        <h2 class="title">Guess a letter:</h2>
+        <div id="letters">
+          <button class="btn-letter">A</button>
+          <button class="btn-letter">B</button>
+          <button class="btn-letter">C</button>
+          <button class="btn-letter">D</button>
+          <button class="btn-letter">E</button>
+          <button class="btn-letter">F</button>
+          <button class="btn-letter">G</button>
+          <button class="btn-letter">H</button>
+          <button class="btn-letter">I</button>
+          <button class="btn-letter">J</button>
+          <button class="btn-letter">K</button>
+          <button class="btn-letter">L</button>
+          <button class="btn-letter">M</button>
+          <button class="btn-letter">N</button>
+          <button class="btn-letter">O</button>
+          <button class="btn-letter">P</button>
+          <button class="btn-letter">Q</button>
+          <button class="btn-letter">R</button>
+          <button class="btn-letter">S</button>
+          <button class="btn-letter">T</button>
+          <button class="btn-letter">U</button>
+          <button class="btn-letter">V</button>
+          <button class="btn-letter">W</button>
+          <button class="btn-letter">X</button>
+          <button class="btn-letter">Y</button>
+          <button class="btn-letter">Z</button>
+        </div>
+        <p id="hints"></p>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

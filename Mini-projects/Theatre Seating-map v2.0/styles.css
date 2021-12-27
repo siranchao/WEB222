@@ -1,0 +1,57 @@
+.container {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.movie .btn-movie {
+  padding: 5px 10px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btn-movie a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+#buy-ticket {
+  display: inline-block;
+  margin-left: 50px;
+  color: red;
+}
+
+.seat {
+  height: 50px;
+  border: 1px solid rgb(147, 144, 144);
+  background-color: rgb(147, 144, 144);
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+}
+.seat:hover {
+  transform: scale(1.2);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 15px;
+  margin: 10px;
+}
+
+#seating-map {
+  width: 70%;
+  border: 1px solid blue;
+}
+.selected {
+  background-color: yellow;
+}
+.occupied {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
